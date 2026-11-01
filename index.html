@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Threvara — Social Feed</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="main-header">
+        <div class="brand-wrap">
+          <div class="brand-mark" aria-hidden="true"></div>
+          <div class="brand-name">THREVARA</div>
+        </div>
+
+        <label class="search-box" aria-label="Search">
+          <span class="search-icon">⌕</span>
+          <input type="text" placeholder="Search communities, people, and posts" />
+        </label>
+
+        <div class="header-tools">
+          <button class="tool-button" aria-label="Notifications">🔔</button>
+          <button class="tool-button" aria-label="Messages">✦</button>
+          <div class="round-avatar mini">AR</div>
+        </div>
+      </header>
+
+      <div class="dashboard-grid">
+        <aside class="left-sidebar">
+          <nav class="primary-nav" aria-label="Main navigation">
+            <button class="nav-item active"><span class="nav-emoji">⌂</span>Home</button>
+            <button class="nav-item"><span class="nav-emoji">◌</span>Communities</button>
+            <button class="nav-item"><span class="nav-emoji">◍</span>Profile</button>
+          </nav>
+
+          <div class="side-panel">
+            <div class="side-label">Your communities</div>
+
+            <div class="community-row">
+              <div class="community-badge teal">DS</div>
+              <div class="community-copy">
+                <strong>Design Systems</strong>
+              </div>
+            </div>
+
+            <div class="community-row">
+              <div class="community-badge" style="background: linear-gradient(135deg, #f5d1a8, #ffeea0);">AI</div>
+              <div class="community-copy">
+                <strong>AI Builders</strong>
+              </div>
+            </div>
+
+            <div class="community-row">
+              <div class="community-badge" style="background: linear-gradient(135deg, #d5c3ff, #9edbff);">CT</div>
+              <div class="community-copy">
+                <strong>Creator Lab</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="side-panel">
+            <div class="side-label">Explore</div>
+            <button class="nav-item"><span class="nav-emoji">＋</span>Discover communities</button>
+          </div>
+        </aside>
+
+        <main class="center-panel">
+          <section class="composer-panel">
+            <h2>What’s happening?</h2>
+            <div class="composer-box">
+              <div class="avatar small">AR</div>
+              <div class="composer-input">Share an update with your circles...</div>
+              <button class="action-ghost">Image</button>
+              <button class="action-primary">Post</button>
+            </div>
+          </section>
+
+          <section class="feed-panel" aria-label="Social feed">
+            <div class="feed-header">
+              <h3>Community feed</h3>
+              <button class="feed-filter">Latest</button>
+            </div>
+
+            <article class="post-card">
+              <div class="post-header-row">
+                <div class="avatar medium teal">MH</div>
+                <div class="post-name-block">
+                  <div class="post-name-line">
+                    <strong>Marco Hill</strong>
+                    <span class="post-subtle">@marco</span>
+                    <span class="dot-separator">•</span>
+                    <span class="time">12 min ago</span>
+                  </div>
+                  <div class="post-name-line secondary-line">
+                    <span class="community-tag">Design Systems</span>
+                  </div>
+                </div>
+                <span class="visibility-pill public">Public</span>
+              </div>
+
+              <h4>Workshop notes: moving from noisy threads to clearer community rituals</h4>
+              <p>
+                We’re testing lighter moderation lanes, more specific prompts, and a better rhythm for async
+                discussion. The goal is less chaos and more real momentum for everyone in the room.
+              </p>
+
+              <div class="art-scene art-scene-1" aria-hidden="true"></div>
+
+              <div class="post-actions">
+                <button>♡ 128</button>
+                <button>💬 34</button>
+                <button>↗ Share</button>
+              </div>
+            </article>
+
+            <article class="post-card">
+              <div class="post-header-row">
+                <div class="avatar medium dark">NL</div>
+                <div class="post-name-block">
+                  <div class="post-name-line">
+                    <strong>Nina Lopez</strong>
+                    <span class="post-subtle">@ninal</span>
+                    <span class="dot-separator">•</span>
+                    <span class="time">1 hr ago</span>
+                  </div>
+                  <div class="post-name-line secondary-line">
+                    <span class="community-tag">AI Builders</span>
+                  </div>
+                </div>
+                <span class="visibility-pill restricted">Members</span>
+              </div>
+
+              <h4>Launch checklist for the new beta cohort</h4>
+              <p>
+                We’ve narrowed the first release to three things: faster onboarding, smarter discovery, and a cleaner
+                way to surface the best conversations. Curious what people would prioritize first?
+              </p>
+
+              <div class="palette-row" aria-label="Design palette preview">
+                <span class="swatch swatch-1"></span>
+                <span class="swatch swatch-2"></span>
+                <span class="swatch swatch-3"></span>
+                <span class="swatch swatch-4"></span>
+                <span class="swatch swatch-5"></span>
+              </div>
+
+              <div class="post-actions">
+                <button>♥ 92</button>
+                <button>💬 18</button>
+                <button>↗ Share</button>
+              </div>
+            </article>
+          </section>
+        </main>
+
+        <aside class="right-sidebar">
+          <div class="profile-card">
+            <div class="mini-composer">
+              <div class="avatar medium muted">AR</div>
+              <div>
+                <div class="profile-name">Ariana Reed</div>
+                <div class="profile-handle">@ariana</div>
+              </div>
+            </div>
+
+            <div class="profile-stats">
+              <div>
+                <strong>2.6K</strong>
+                <span>Followers</span>
+              </div>
+              <div>
+                <strong>89</strong>
+                <span>Communities</span>
+              </div>
+            </div>
+
+            <div class="mini-toolbar">
+              <button class="ghost-action">View profile</button>
+              <button class="action-primary compact">Create</button>
+            </div>
+          </div>
+
+          <div class="explore-panel">
+            <div class="compact-header">
+              <div class="section-label">Discover</div>
+            </div>
+
+            <div class="mini-feed-card">
+              <div class="thumb-art" aria-hidden="true"></div>
+              <div class="mini-copy">
+                <h4>Product Circle</h4>
+                <p>Weekly product critique, research swaps, and design partner feedback.</p>
+              </div>
+              <div class="bottom-actions">
+                <button class="ghost-action">View</button>
+                <button class="action-primary compact">Join</button>
+              </div>
+            </div>
+
+            <div class="mini-feed-card">
+              <div class="thumb-art alt-art" aria-hidden="true"></div>
+              <div class="mini-copy">
+                <h4>Launch Stories</h4>
+                <p>Stories and lessons from founders shipping meaningful experiences.</p>
+              </div>
+              <div class="bottom-actions">
+                <button class="ghost-action">View</button>
+                <button class="action-primary compact">Join</button>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <button class="active">Home</button>
+      <button>Groups</button>
+      <button>Profile</button>
+    </nav>
+  </body>
+</html>
